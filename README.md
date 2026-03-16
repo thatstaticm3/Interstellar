@@ -38,13 +38,16 @@
 4. For NPM: Run either `config=true npm start` or `$env:config=true; npm start` if you prefer NPM.
 
 
-### Server Deployment
+### Full Server Instructions
 
-You must run these commands on your server:
+You must run these commands on your server. These are the only known working ways:
 
 ```bash
-git clone https://github.com/UseInterstellar/Interstellar
+config=true npm start
+git clone --branch Ad-Free https://github.com/UseInterstellar/Interstellar
 cd Interstellar
+npm i
+npm run start
 ```
 
 #### Ad-Free Deployment
