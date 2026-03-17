@@ -16,8 +16,9 @@ git clone --branch Ad-Free https://github.com/UseInterstellar/Interstellar
 cd Interstellar
 npm i
 npm run start
-After the server is running, make sure to turn the visiblity to Public.
 ```
+After the server is running, make sure to turn the visiblity to Public.
+
 ### How to make the server turn back on
 
 You must run these commands on your server. These are the only known working ways:
@@ -25,6 +26,4 @@ You must run these commands on your server. These are the only known working way
 cd Interstellar
 npm run start
 ```
-A huge thanks goes out to all of the people who have contributed to Interstellar.
 
-[![Contributors](https://contrib.rocks/image?repo=UseInterstellar/Interstellar)](https://github.com/UseInterstellar/Interstellar/graphs/contributors)
